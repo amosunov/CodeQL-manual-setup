@@ -81,8 +81,6 @@ jobs:
       shell: bash
       run: |
         make all
-        make bootstrap
-        make release
         exit 1
 
     - name: Perform CodeQL Analysis
